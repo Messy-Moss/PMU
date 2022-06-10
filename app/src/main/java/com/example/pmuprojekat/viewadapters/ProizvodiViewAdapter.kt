@@ -31,10 +31,8 @@ class ProizvodiViewAdapter(val ctx: Context, val data: LiveData<List<Proizvod>>)
             val nam=itemView.findViewById<TextView>(R.id.proizvodiName)
             nam.text=model.productName
 
-//            val discontinued = itemView.findViewById<TextView>(R.id.discontinued)
-
             if (model.discontinued) {
-                nam.append(" DISCONTINUED")
+                nam.append("\nDISCONTINUED")
             }
 
             val detaljnije=itemView.findViewById<Button>(R.id.detaljnijeProizvodi)
