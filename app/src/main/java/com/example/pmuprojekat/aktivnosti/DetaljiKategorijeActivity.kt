@@ -102,8 +102,6 @@ class DetaljiKategorijeActivity : AppCompatActivity() {
                         val snimiIzmene = findViewById<Button>(R.id.kategorijaAkcija)
                         snimiIzmene.text = "Snimi"
 
-                        //DODAJ LISTENER TODO
-
                         snimiIzmene.setOnClickListener {
                             snimanjeIzmena(
                                 category!!.categoryId,

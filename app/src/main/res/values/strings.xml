@@ -14,4 +14,7 @@
 
     <string name="naziv_proizvoda">Naziv Proizvoda</string>
     <string name="opis_proizvoda">Discontinued?</string>
+    <string name="treca_aktivnost">Broj Grupisanih proizvoda</string>
+
+
 </resources>

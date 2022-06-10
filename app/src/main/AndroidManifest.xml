@@ -13,6 +13,9 @@
         android:theme="@style/Theme.PMUProjekat"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".aktivnosti.TrecaAktivnost"
+            android:exported="false" />
+        <activity
             android:name=".aktivnosti.DetaljiProizvodiActivity"
             android:exported="false" />
         <activity

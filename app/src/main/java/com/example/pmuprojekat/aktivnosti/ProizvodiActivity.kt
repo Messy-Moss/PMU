@@ -73,7 +73,8 @@ class ProizvodiActivity : AppCompatActivity() {
             val novProizvod = Proizvod(
                 0,
                 nazivProizvoda.text.toString(),
-                opisProizvoda.text.toString().toBoolean()
+                opisProizvoda.text.toString().toBoolean(),
+                null
             )
 
             lifecycleScope.launch(Dispatchers.IO) {

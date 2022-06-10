@@ -36,7 +36,6 @@ class KategorijeActivity : AppCompatActivity() {
         dohvatiKategorije(this, ApiRoutes.categories)
     }
 
-    // TODO: ZASTO IMA POVRATNU VREDNOST?
     private fun dohvatiKategorije(ctx: Context, sUrl: String): List<Category>? {
         var categories: List<Category>? = null
         lifecycleScope.launch(Dispatchers.IO) {

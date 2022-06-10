@@ -7,6 +7,7 @@ import android.view.View
 import android.widget.Toast
 import com.example.pmuprojekat.aktivnosti.KategorijeActivity
 import com.example.pmuprojekat.aktivnosti.ProizvodiActivity
+import com.example.pmuprojekat.aktivnosti.TrecaAktivnost
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,6 +23,11 @@ class MainActivity : AppCompatActivity() {
 
     fun otvoriAktivnostProizvodi(view: View) {
         val intent = Intent(this, ProizvodiActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun otvoriAktivnost3(view: View) {
+        val intent = Intent(this, TrecaAktivnost::class.java)
         startActivity(intent)
     }
 

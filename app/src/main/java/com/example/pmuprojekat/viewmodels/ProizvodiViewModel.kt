@@ -7,5 +7,6 @@ import com.example.pmuprojekat.data.Proizvod
 
 class ProizvodiViewModel: ViewModel() {
     val lstProizovdi= MutableLiveData<List<Proizvod>>()
+    val mapProizvodi = MutableLiveData<Map<Int, Int>>()
     val proizvod= MutableLiveData<Proizvod>()
 }

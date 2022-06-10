@@ -53,7 +53,8 @@ class DetaljiProizvodiActivity : AppCompatActivity() {
         val izmenjenProizvod = Proizvod(
             pId,
             pName,
-            pDisc
+            pDisc,
+            null
         )
 
         lifecycleScope.launch(Dispatchers.IO) {
